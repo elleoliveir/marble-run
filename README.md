@@ -8,6 +8,34 @@ Nenhuma engine pronta foi usada. Renderização, física, colisão, câmeras, HU
 
 ---
 
+## 📸 Galeria do Projeto
+
+**Menu e HUD Customizado**  
+Menu de pausa/início com instruções de controle. Toda a interface (HUD) e a tipografia foram desenhadas manualmente usando primitivas geométricas e um shader 2D dedicado, sem carregamento de fontes externas.  
+> <img width="912" height="686" alt="image" src="https://github.com/user-attachments/assets/9d8bf3f5-abec-497b-9b1a-e0ae8dfbc056" />
+
+**Gameplay e Sombras Dinâmicas**  
+A bola percorrendo a pista com câmera em terceira pessoa. É possível notar a textura procedural esférica da bola, a grade infinita do chão e o *Shadow Mapping* projetando sombras suaves e realistas a partir do ponto de vista do Sol.  
+> <img width="912" height="650" alt="image" src="https://github.com/user-attachments/assets/c15651ff-2ced-4bf6-b4b7-3118711a6a0f" />
+
+**Física e Colisão Orientada**  
+Progressão em trechos de escada. A física calcula rigorosamente a colisão com caixas orientadas no espaço (OBB) para permitir subidas e interações corretas com rampas e degraus.  
+> <img width="912" height="686" alt="image" src="https://github.com/user-attachments/assets/391d3238-639f-41ae-af4e-c8b755b9d9e2" />
+
+**Coleta de Itens e Visibilidade**  
+Trecho avançado mostrando o HUD dinâmico no topo (tempo restante à esquerda, pontuação à direita), com obstáculos e folhagens otimizadas pelo algoritmo geométrico de *Back-Face Culling*.  
+> <img width="912" height="520" alt="image" src="https://github.com/user-attachments/assets/020e2524-bba8-4d06-8b29-95a78f27d1af" />
+
+**Máquina de Estados: Tela de Vitória**  
+Tela de conclusão de fase exibindo o evento de vitória da Máquina de Estados, com destaque para a pontuação final (70 pontos) e a sobreposição da UI sobre a cena 3D.  
+> <img width="912" height="686" alt="image" src="https://github.com/user-attachments/assets/5edcba3e-02a8-46fd-9791-2c5b0f65e015" />
+
+**Editor de Fases Integrado (Raycasting)**  
+O robusto modo editor executado em tempo real. À esquerda, a paleta de blocos e ferramentas; à direita, sliders interativos de ambiente (gravidade, sol, tempo); ao centro, a edição geométrica via interseção de raios matemáticos (*Raycasting*) na grade tridimensional.  
+> <img width="912" height="520" alt="image" src="https://github.com/user-attachments/assets/ecc3a67a-723b-4a52-ae61-f21664caccf5" />
+
+---
+
 ## 🎮 O que tem no jogo
 
 - **3 fases jogáveis**, cada uma com tempo limite, ponto de partida e checkpoints. Tocar o troféu leva à fase seguinte, mantendo a pontuação.
