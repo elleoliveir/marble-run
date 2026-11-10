@@ -1,0 +1,19 @@
+# Pastas de compilação e cache do Visual Studio
+.vs/
+Debug/
+Release/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Arquivos temporários e de usuário
+*.user
+*.suo
+*.ilk
+*.pdb
+*.obj
+*.dll
+*.lib
+*.log
