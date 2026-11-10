@@ -12,7 +12,7 @@ Nenhuma engine pronta foi usada. Renderização, física, colisão, câmeras, HU
 
 **Menu e HUD Customizado**  
 Menu de pausa/início com instruções de controle. Toda a interface (HUD) e a tipografia foram desenhadas manualmente usando primitivas geométricas e um shader 2D dedicado, sem carregamento de fontes externas.  
-> <img width="912" height="686" alt="image" src="https://github.com/user-attachments/assets/9d8bf3f5-abec-497b-9b1a-e0ae8dfbc056" />
+> <img width="912" height="600" alt="image" src="https://github.com/user-attachments/assets/9d8bf3f5-abec-497b-9b1a-e0ae8dfbc056" />
 
 **Gameplay e Sombras Dinâmicas**  
 A bola percorrendo a pista com câmera em terceira pessoa. É possível notar a textura procedural esférica da bola, a grade infinita do chão e o *Shadow Mapping* projetando sombras suaves e realistas a partir do ponto de vista do Sol.  
@@ -28,7 +28,7 @@ Trecho avançado mostrando o HUD dinâmico no topo (tempo restante à esquerda, 
 
 **Máquina de Estados: Tela de Vitória**  
 Tela de conclusão de fase exibindo o evento de vitória da Máquina de Estados, com destaque para a pontuação final (70 pontos) e a sobreposição da UI sobre a cena 3D.  
-> <img width="912" height="686" alt="image" src="https://github.com/user-attachments/assets/5edcba3e-02a8-46fd-9791-2c5b0f65e015" />
+> <img width="912" height="600" alt="Captura de tela 2026-11-10 161531" src="https://github.com/user-attachments/assets/0e584ac1-4457-44ec-b191-260d221d149e" />
 
 **Editor de Fases Integrado (Raycasting)**  
 O robusto modo editor executado em tempo real. À esquerda, a paleta de blocos e ferramentas; à direita, sliders interativos de ambiente (gravidade, sol, tempo); ao centro, a edição geométrica via interseção de raios matemáticos (*Raycasting*) na grade tridimensional.  
