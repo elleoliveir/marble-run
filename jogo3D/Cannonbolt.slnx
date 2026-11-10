@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="jogo2D/jogo2D.vcxproj" Id="375050d3-3d8c-45a4-93e0-0edb138bdf93" />
+</Solution>

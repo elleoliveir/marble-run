@@ -14,6 +14,4 @@ bld/
 *.ilk
 *.pdb
 *.obj
-*.dll
-*.lib
 *.log
